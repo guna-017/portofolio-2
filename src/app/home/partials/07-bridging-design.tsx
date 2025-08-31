@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Bridging = () => {
@@ -19,13 +20,15 @@ const Bridging = () => {
         {/* portofolio 1*/}
         <div className='md:pt-5'>
           <div className='flex justify-center md:min-w-[370px]'>
-            <Image
-              src='/images/porto-1.png'
-              alt='porto'
-              width={373}
-              height={373}
-              className='w-full'
-            ></Image>
+            <Link href='/' className='w-full'>
+              <Image
+                src='/images/porto-1.png'
+                alt='porto'
+                width={373}
+                height={373}
+                className='w-full md:transition-transform md:duration-300 md:ease-in-out md:hover:scale-105'
+              />
+            </Link>
           </div>
           <div className='flex flex-col gap-1 pt-4'>
             <p className='text-lg md:text-xl'>Portofolio 1</p>
@@ -37,13 +40,15 @@ const Bridging = () => {
         {/* portofolio 2*/}
         <div className='pt-5'>
           <div className='flex justify-center md:min-w-[370px]'>
-            <Image
-              src='/images/porto-2.png'
-              alt='porto'
-              width={373}
-              height={373}
-              className='w-full'
-            ></Image>
+            <Link href='/' className='w-full'>
+              <Image
+                src='/images/porto-2.png'
+                alt='porto'
+                width={373}
+                height={373}
+                className='w-full md:transition-transform md:duration-300 md:ease-in-out md:hover:scale-105'
+              />
+            </Link>
           </div>
           <div className='flex flex-col gap-1 pt-4'>
             <p className='text-lg md:text-xl'>Portofolio 2</p>
@@ -55,13 +60,15 @@ const Bridging = () => {
         {/* portofolio 3*/}
         <div className='pt-5'>
           <div className='flex justify-center md:min-w-[370px]'>
-            <Image
-              src='/images/porto-3.png'
-              alt='porto'
-              width={373}
-              height={373}
-              className='w-full'
-            ></Image>
+            <Link href='/' className='w-full'>
+              <Image
+                src='/images/porto-3.png'
+                alt='porto'
+                width={373}
+                height={373}
+                className='w-full md:transition-transform md:duration-300 md:ease-in-out md:hover:scale-105'
+              />
+            </Link>
           </div>
           <div className='flex flex-col gap-1 pt-4'>
             <p className='text-lg md:text-xl'>Portofolio 3</p>

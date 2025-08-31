@@ -4,16 +4,6 @@ import { Marquee } from '@/components/ui/marquee';
 import Image from 'next/image';
 import React from 'react';
 
-const RunningText = () => {
-  return (
-    <div className='mt-6.5 md:mt-70'>
-      <SkillMarquee />
-    </div>
-  );
-};
-
-export default RunningText;
-
 const SkillMarquee = () => {
   return (
     <div className='bg-primary-300 relative mt-15 flex h-15.5 items-center md:h-27'>
@@ -33,3 +23,13 @@ const SkillMarquee = () => {
     </div>
   );
 };
+
+const RunningText = () => {
+  return (
+    <div className='mt-6.5 md:mt-70'>
+      <SkillMarquee />
+    </div>
+  );
+};
+
+export default RunningText;
