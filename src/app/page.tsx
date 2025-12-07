@@ -15,7 +15,7 @@ import LetsBuild from './home/partials/11-lets-build';
 
 export default function Home() {
   return (
-    <div className='grid min-h-[2000px]'>
+    <div className=''>
       <Navbar />
       <Hero />
       <RunningText />
